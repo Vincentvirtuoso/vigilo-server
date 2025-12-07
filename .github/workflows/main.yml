@@ -1,4 +1,4 @@
-name: deploy riggedFire
+name: deploy ZetaByte
 
 on:
   push:
