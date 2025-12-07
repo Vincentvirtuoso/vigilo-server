@@ -1,4 +1,4 @@
-name: deploy FeedTheCat
+name: deploy BawbeeRigged
 
 on:
   push:
