@@ -1,4 +1,4 @@
-name: deploy ZetaByte
+name: deploy FeedTheCat
 
 on:
   push:
