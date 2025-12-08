@@ -1,4 +1,4 @@
-name: deploy BawbeeRigged
+name: deploy MadsFeed
 
 on:
   push:
