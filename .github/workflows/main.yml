@@ -1,4 +1,4 @@
-name: deploy MadsFeed
+name: deploy MiroalavSane
 
 on:
   push:
