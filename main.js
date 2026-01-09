@@ -4,7 +4,9 @@ import http from 'http';
 import { Server } from 'socket.io';
 import app from './src/app.js';
 
-dotenv.config({ path: './.env' });
+if (process.env.NODE_ENV !== 'production') {
+  dotenv.config();
+}
 
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
