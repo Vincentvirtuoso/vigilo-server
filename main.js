@@ -15,7 +15,7 @@ async function startServer() {
       throw new Error('❌ MONGO_URI not defined in .env');
     }
 
-    await mongoose.connect(MONGO_URI, { dbName: 'vigilo' });
+    await mongoose.connect(MONGO_URI);
     console.log('✅ Connected to MongoDB');
 
     const server = http.createServer(app);
